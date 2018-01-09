@@ -1,0 +1,11 @@
+RewriteOptions inherit
+RewriteEngine On
+DirectoryIndex index-personal-video.html
+RewriteCond %{HTTP_HOST} ^www.bkenneweg.com
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^assets\/$ "https\:\/\/www\.bkenneweg\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^assets\/images\/$ "https\:\/\/www\.bkenneweg\.com\/" [R=301,L]
+
