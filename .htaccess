@@ -1,6 +1,6 @@
 RewriteOptions inherit
 RewriteEngine On
-DirectoryIndex index-personal-video.html
+DirectoryIndex index.html
 RewriteCond %{HTTP_HOST} ^www.bkenneweg.com
 
 RewriteCond %{HTTP_HOST} ^.*$
